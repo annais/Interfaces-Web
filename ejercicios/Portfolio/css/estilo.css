@@ -1,0 +1,439 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+#entrada{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/fondo1.jpg");
+	background-size: 100% 115%;
+	background-repeat: no-repeat;
+	color: white;
+	padding: 5% 0;
+}
+
+#entrada > a >img {
+	display: block;
+	margin: 0 auto;
+}
+
+h1,h3{
+	line-height:2em;
+	letter-spacing: 0.5em;
+	padding: 5%;
+	font-family: times;
+	text-align: center;
+}
+
+
+h1{
+	padding-top: 15%;
+	font-size: 125%;
+}
+
+h3{
+	font-size: 100%;
+}
+
+#projects{
+	letter-spacing: 0.5em;
+	margin: 10% 5%;
+
+}
+
+#cuadros a {
+	text-decoration: none;
+}
+
+.project{
+	transition: 0.5s;
+	height: 100%;
+	padding: 0 5%;
+	color:white;
+	text-align: center;
+}
+
+.project:hover{
+	*background:  rgba(148, 93, 253, 0.6);
+	background: rgba(170, 0, 255, 0.6);
+	background-size: 100% 100%;
+}
+
+.imgw{
+	background-image: url('../img/worldConsol.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	transition: 0.5s;
+	height: 100%;
+	width: 100%;
+}
+
+.imgg{
+	background-image: url('../img/gestortareas.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	transition: 0.5s;
+	height: 100%;
+	width: 100%;
+}
+
+.imgr{
+	background-image: url('../img/casasRurales.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	transition: 0.5s;
+	height: 100%;
+	width: 100%;
+}
+
+.imgw *, .imgg *, .imgr *{
+	visibility: hidden;
+}
+
+.imgw:hover, .imgr:hover, .imgg:hover{
+	background-size: 120% 120%;
+}
+
+.imgw:hover *, .imgr:hover *, .imgg:hover *{
+	visibility:visible;
+}
+
+#projects > h2{
+	margin-bottom: 5%;
+}
+
+#projects a{
+	background:  rgba(51,153,255,0.7);
+
+}
+
+.cuadro{
+	display:block;
+	height: 16em;
+	width: 100%;
+}
+
+nav{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	color: white;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size:  200%;
+}
+
+nav ol{
+	width: 60%;
+	display: none;
+	margin-right: 5%;
+}
+
+li{
+	margin-left: 9%;
+}
+
+nav > ol > li{
+  	display: inline-block;
+  	list-style: none;
+  	width: auto;
+}
+
+#menu{
+	width: 30px;
+}
+
+#datos{
+	padding: 10% 5%;
+}
+
+#dato{
+	margin: 5%;
+}
+
+#dato p, h4{
+	font-family: 'Oleo Script', cursive;
+}
+
+#dato img{
+	margin-right: 40px;
+	margin-bottom: 2%;
+}
+
+#dato p{
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #4A148C;
+}
+
+.imgdatos{
+	width: 320px;
+	margin: 0;
+	padding: 0;
+}
+	
+#dato h4{
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+#leng{
+	background-color: #424242;
+	color: white;
+	padding: 10% 5%;
+}
+
+.lenguaje {
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	padding: 0;
+}
+
+.igrupo{
+	width: 256px;
+	border: 6px solid;
+	border-radius: 20px;
+	border-color: white;
+	margin: 5% 5%;
+	padding: 1em;
+}
+
+.grupo{
+	flex: 1;
+}
+
+.lenguaje h3{
+	width: 256px;
+	flex: 1;
+	margin: 0 5%;
+	padding: 1em;
+	margin:  0;
+}
+
+.cuadro img{
+	width: 100%;
+}
+
+.cuadro p{
+	margin-top: 10px;
+}
+
+#contacto{
+	color: white;
+	background-color: #424242;
+	padding: 10% 5%;
+	padding-bottom: 15%;
+}
+
+#dcontacto{
+	display:flex;
+	flex-direction: column;
+	margin:5%;
+}
+
+.datoscont{
+	width:45%;
+	flex:1;
+}
+
+#redes{
+	display: flex;
+	text-align: center;
+	margin: 5% 0;
+}
+
+#redes > a > img{
+	width: 80px;
+	border-radius: 20px;
+}
+
+#formulario{
+	font-size: 20px;
+}
+
+.alinear{
+	/* display: flex; */
+	width: 95%;
+	margin: 0;
+}
+
+.alinear > label{
+	flex: 1;
+}
+
+label, input{
+	margin-bottom: 10px;
+}
+
+.letter{
+	display:none;
+}
+
+.nleng{
+	display: none;
+}
+
+#formulario #enviar{
+	width: auto;
+	padding: 2% 5%;
+	border-radius: 15%;
+	background-color: white;
+	font-size: 20px;
+	margin-top: 5s%;
+	margin-bottom: 30%;
+}
+
+#mapa{
+	width: 300px;
+	height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+	#entrada{
+		background-size: 100% 100%;
+	}
+
+	h1,h3{
+		letter-spacing: 1em; 
+		padding: 3%; 
+	}
+
+	h1{
+		font-size: 250%;
+		padding-top: 5%;
+	}
+
+	h3{
+		font-size: 150%;
+	}
+
+	nav ol{
+		float: right;
+		text-align: right;
+	}
+
+	#entrada > img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.imgdatos{
+		width: 900px;
+		display: none;
+	}
+
+	.lenguaje{
+		display: flex;
+		background-color: #424242;*
+		padding: 10% 20%;
+		flex-direction: row;
+	}
+
+	.igrupo{
+		border: 6px solid;
+		border-radius: 20px;
+		border-color: white;
+		margin: 0;
+		padding: 1em;
+	}
+
+	.grupo{
+		flex: 1;
+		margin: 0;
+	}
+
+	#cuadros{
+		display: flex;
+	}
+
+	.cuadro{
+		width:33%;
+	}
+
+	.alinear{
+		display: flex;
+	}
+
+	#dato{
+		display: flex;
+		font-family: 'Oleo Script', cursive;
+	}
+
+	#datos p{
+		font-size: 30px;
+	}
+
+	#datos h4{
+		font-size: 40px;
+	}
+
+	#datos img{
+		margin-botton:0;
+	}
+
+	#redes > a > img{
+		width: 100px;
+		margin-right: 20px;
+	}
+
+	#formulario{
+		font-size: 25px;
+		margin: 0 10%;
+	}
+
+	#formulario input, textarea {
+		width: 50%;
+	}
+
+	#dcontacto{
+		flex-direction: row;
+	}
+	
+	#mapa{
+		width: 600px;
+		height: 450px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	#entrada{
+		background-size: 100% 120%;
+	}
+
+	h1,h3{
+		letter-spacing: 1em;
+		padding: 5%;
+	}
+
+
+	h1{
+		font-size: 350%;
+		padding-top: 10%;
+	}
+
+	h3{
+		font-size: 250%;
+	}
+
+	#datos p{
+		font-size: 40px;
+	}
+
+	#datos h4{
+		font-size: 50px;
+	}
+
+	#formulario{
+		font-size: 40px;
+		margin: 0 30%;
+	}
+
+}
