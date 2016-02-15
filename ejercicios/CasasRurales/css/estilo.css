@@ -1,0 +1,112 @@
+@import "http://fonts.googleapis.com/css?family=Rancho&effect=3d";
+@font-face {
+    font-family: 'negotiatefree';
+    src: url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.eot');
+    src: url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.woff') format('woff'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.ttf') format('truetype'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.svg#negotiatefree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url('../img/fondoindex.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'negotiatefree';
+}
+
+h1{
+	font-family: Rancho;
+	margin: 0;
+	padding-top: 5%;
+	padding-left: 3%;
+	font-size: 500%;
+}
+
+#entrar{
+	font-size: 50px;
+	font-family: serif;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+	background-color: rgba(136, 96, 34, 0.8);
+	*background-color:rgba(255, 180, 100, 0.4);
+	*background-color: rgba(26, 125, 202, 0.4);
+	*background: rgba(117,137,12,1);
+	*background: -moz-radial-gradient(center, ellipse cover, rgba(117,137,12,1) 0%, rgba(133,106,73,1) 100%);
+	*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(117,137,12,1)), color-stop(100%, rgba(133,106,73,1)));
+	*background: -webkit-radial-gradient(center, ellipse cover, rgba(117,137,12,1) 0%, rgba(133,106,73,1) 100%);
+	*background: -o-radial-gradient(center, ellipse cover, rgba(117,137,12,1) 0%, rgba(133,106,73,1) 100%);
+	*background: -ms-radial-gradient(center, ellipse cover, rgba(117,137,12,1) 0%, rgba(133,106,73,1) 100%);
+	*background: radial-gradient(ellipse at center, rgba(117,137,12,1) 0%, rgba(133,106,73,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75890c', endColorstr='#856a49', GradientType=1 );
+	-webkit-box-shadow: 2px 4px 44px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 4px 44px 10px rgba(0,0,0,0.75);
+	box-shadow: 2px 4px 44px 10px rgba(0,0,0,0.75);
+	margin: 5%;
+	padding:  10%;
+	color: white;
+	font-weight: bold;
+	font-family: Rancho;
+	position:absolute;
+   	bottom:0;
+   	right:10%;
+}
+
+#entrar:hover {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	
+	/*display: inline-block; width: 100px; height: 100px;*/
+	border-width: 50px;
+	border-color: rgba(0,0,0,0);
+	
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+
+	font-size: 50px;
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../img/casita.png');
+		font-size: 150%;
+    }
+
+    #entrar{
+    	padding:  5%;
+    }
+
+}
+
+@media all and (min-width: 1600px) {
+    h1 {
+        font-size: 1300%;
+    }
+
+    #entrar{
+    	padding: 6% 10% 6% 10%;
+    	font-size: 200px;
+    }
+
+}

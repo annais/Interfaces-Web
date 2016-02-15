@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AñadirActividad</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+</head>
+<body>
+	<header>
+		<ul>
+			<li class="menuimg"><img src="./img/menu48.png"></img>
+				<ul class="menufun">
+					<a href="index.html"><li>Inicio</li></a>
+					<li>Selecionar Categoria
+						<ul>
+							<li>Android</li>
+							<li>DIWEB</li>
+							<li>DAWEB</li>
+						</ul>
+					</li>
+					<a href="#"><li>Añadir Categoria</li></a>
+					<a href="#"><li>Añadir Tema</li></a>
+					<a href="añadiract.html"><li>Añadir Actividad</li></a>
+					<a href="#"><li>Eliminar Categoria</li></a>
+				</ul>
+			</li>
+		</ul>
+		<h1>Gestor de Tareas</h1>
+		<img src="./img/magnifier12.png" ></img>
+		<img src="./img/calendar68.png" ></img>
+	</header>
+
+	<main>
+		<section id="registro">
+				<form action="php/registrar.php" method="post">
+					<table>
+						<tr>
+							<td>
+								<p>Seleciona una Categoria</p>
+								<select>
+								  <option value="android">Android</option>
+								  <option value="diweb">DIWEB</option>
+								  <option value="daweb">DAWEB</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Seleciona un Tema</p>
+								<select>
+								  <option value="tema1">Tema 1</option>
+								  <option value="tema2">Tema 2</option>
+								  <option value="tema3">Tema 3</option>
+								  <option value="tema4">Tema 4</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Introduce el nombre de la Actividad</p>
+								<input type="text" name="nombre"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Introduce la Actividad</p>
+								<textarea rows="15" cols="80"> 
+								</textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="submit" value="Guardar">
+							</td>
+						</tr>
+					</table>
+
+				</form>		
+			</section>
+		</main>
+
+	<footer>
+		<p>Creado por Anais Jiménez Higuera</p>
+	</footer>
+</body>
+</html>

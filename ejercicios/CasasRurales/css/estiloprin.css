@@ -1,0 +1,317 @@
+@import "http://fonts.googleapis.com/css?family=Rancho&effect=3d";
+
+@font-face {
+    font-family: 'negotiatefree';
+    src: url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.eot');
+    src: url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.woff') format('woff'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.ttf') format('truetype'),
+         url('../font/Negotiate-fontfacekit/web-fonts/negotiate_free_macroman/negotiate_free-webfont.svg#negotiatefree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Rancho;
+}
+
+header{
+	font-family: Rancho;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 130, 47, 1);
+	color: white;
+	display:block;
+}
+
+h1{
+	display: inline-block;
+	width: auto;
+	padding-bottom: 1%;
+	font-size: 200%;
+	margin-left: 2%;
+}
+
+nav{
+	width: 55%;
+	float: right;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 3px solid;
+	border-color: rgba(136, 96, 34, 1);
+	color: white;
+	font-size: 50%;
+}
+
+li{
+	margin-left: 2%;
+}
+
+nav > ul > li{
+  display: inline-block;
+}
+
+ul > li{
+ 	width: auto;
+ 	padding-top: 2%;
+ 	font-size: 220%;
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+
+#secbuscador{
+	width: 100%;
+	height: 20%;
+	background-image: url("../img/casita.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-weight: bold;
+}
+
+#buscador{
+	width: 80%;
+	height:20%;
+	padding: 3%;
+	margin: 5%;
+	background-color: rgba(136, 96, 34, 0.6);
+	display:inline-block;
+	font-size: 15px;
+}
+
+input{
+	width: 80%;
+	height: 70%;
+}
+
+.cuadro{
+	padding: 1em;
+	width: auto;
+	height: auto;
+	margin: 2%;
+	border: 2px solid;%;
+	border-color: rgba(0, 130, 47, 1);*
+	border-color: rgba(136, 96, 34, 1);
+	border-radius: 4%;
+	display: inline-block;*
+	background-color: rgba(136, 96, 34, 0.3);
+}
+
+.cuadroalq{
+	padding: 7%;
+	margin: 9%;
+	width: 70%;
+	height: auto;
+	border: 2px solid;
+	border-color: rgba(0, 130, 47, 1);
+	border-radius: 4%;
+	display: inline-block;
+	font-size: 100%;
+}
+
+.inputform{
+	width: 100%;
+	font-size: 70%;
+}
+
+.cuadro > p {
+	margin: 2%;
+	margin-bottom: 5%;
+	font-size: 180%;
+}
+
+.button{
+	font-size: 150%;
+	padding: 2%;
+	padding-right: 8%;
+	padding-left: 8%;
+	margin-left: 30%;
+	border-radius: 10%;
+	border: none;
+	background-color: rgba(0, 130, 47, 1);
+}
+
+.buttoninfo{
+	font-size: 150%;
+	padding: 2%;
+	padding-right: 8%;
+	padding-left: 8%;
+	margin-left: 30%;
+	border-radius: 10%;
+	border: none;
+	background-color: rgba(0, 130, 47, 1);
+}
+
+.buttonalq{
+	padding: 5%;
+	border-radius: 3%;
+	border: none;
+	background-color: rgba(0, 130, 47, 1);
+	color: white;
+	font-size: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h2{
+	color: rgba(0, 130, 47, 1);
+	font-size: 300%;
+}
+
+div img{
+	height: 170px;
+}
+
+.cuadro > button{
+	width: 162px;
+}
+
+.cuadroinfo{
+	padding: 5%;
+	padding-top: 2%;
+	margin: 5%;
+	width: auto;
+	height: auto;
+	border: 2px solid;
+	border-color: rgba(0, 130, 47, 1);
+	border-radius: 4%;
+	display: inline-block;
+	font-size: 100%;
+}
+
+.cuadroinfo img{
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-right: 2%
+}
+
+.cuadroinfo > p{
+	font-size: 80%;
+	vertical-align: text-top;
+	margin-bottom: 2%;
+}
+
+footer{
+	font-family: Rancho;
+	width: auto;
+	height: auto;
+	background-color: rgba(0, 130, 47, 1);
+	color: white;
+	padding: 1%;
+	text-align: center;
+	font-size: 100%;
+	
+}
+
+
+@media screen and (min-width: 768px) {	
+
+	h1{
+		font-size: 400%;
+	}
+	
+	h2{
+		font-size: 200%;
+	}
+
+	a{
+		font-size: 150%;
+	}
+
+	div img{
+		width: 100%;
+	}
+
+	.cuadro{
+		width: 17%;
+	}
+	
+	#buscador{
+		padding: 1%;
+		margin: 2%;
+		width:60%;
+		font-size: 20px;
+	}
+
+	.cuadroalq{
+		padding: 5%;
+		padding-top: 2%;
+		margin: 2%;
+		margin-left: 25%;
+		width: 40%;
+		height: auto;
+		border: 2px solid;
+		border-color: rgba(0, 130, 47, 1);
+		border-radius: 4%;
+		display: inline-block;
+		font-size: 200%;
+		text-align: center
+	}
+
+	.cuadroinfo{
+		font-size: 200%;
+	}
+
+	.inputform{
+		width: 60%;
+		float: right;
+	}
+	
+	.buttoninfo{
+		padding: 1%;
+		padding-left: 3%;
+		padding-right: 3%;
+		margin-left: 40%
+	}
+
+	footer{
+		font-size: 200%;
+	}
+
+}
+
+@media screen and (min-width: 1600px) {
+	
+	nav{
+		width: 55%;
+		margin-left:auto;
+	}
+
+	h1{
+		width: 40%;
+		font-size: 600%;
+	}
+	
+	a{
+		font-size: 200%;
+	}
+
+	#buscador{
+		padding: 3%;
+		margin: 10%;
+		width:70%;
+		height: 15%;
+		font-size: 40px;
+	}
+
+	.cuadroalq{
+		padding: 5%;
+		padding-top: 5%;
+		margin: 5%;
+		margin-left: 25%;
+		font-size: 400%;
+		width: 50%;
+	}
+
+}

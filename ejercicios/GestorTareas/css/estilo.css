@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'blackjackregular';
+    src: url('fuentes/black_jack-webfont.eot');
+    src: url('fuentes/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/black_jack-webfont.woff') format('woff'),
+         url('fuentes/black_jack-webfont.ttf') format('truetype'),
+         url('fuentes/black_jack-webfont.svg#blackjackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+ 	margin: 0;
+ 	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	color:  #FFFFFF;
+	background-color: #F3F3F3;
+}
+
+header{
+	width: 100%;
+	height: 7%;
+	padding: 0.5%;
+	background-color: #303841;
+	display: inline-block;
+}
+
+header > h1{
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 8px;
+}
+
+header > img{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.menuimg{
+	float: left;
+	position: relative;
+}
+
+ul > li > ul {
+	display: none;
+}
+
+ul > li:hover >ul{
+	display: block;
+	position: absolute;
+	margin-top: 33px;
+}
+
+.menufun li{
+  color: #F3F3F3;
+  padding: 5px;
+  width: 170px;
+  margin: 0;
+  font-size: 20px;
+  font-family: serif;
+  background-color: #303841;
+}
+
+.menufun li:hover > ul{
+  transform: translate(173px,-61px);
+}
+
+.menufun  li:hover{
+  background-color: #2185D5;
+}
+
+.padding{
+   padding: 20px;
+}
+
+.margenimg{
+	margin: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+main{
+	color: #000000;
+	width: 100%;
+	height: 90%;
+	display: block;
+}
+
+#section1{
+	width: 15%;
+	height: 90%;
+	background-color: #3A4750;	
+	display: inline-block;
+	padding: 2%;
+	vertical-align: top;
+}
+
+#section1 h2{
+	font-family: serif;
+	color: #F3F3F3;
+}
+
+li > img{
+	float: right;
+}
+
+li{
+  list-style: none;
+  font-family: blackjackregular;
+  font-size: 20px;
+  margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tarea:visited, .tarea:link{
+	color: grey;
+}
+
+.tema:visited, .tema:link{
+	color: #F3F3F3;
+}
+
+.tema{
+	color: #F3F3F3;
+}
+
+#section2{
+	color: #000000;
+	width: 75%;
+	height: 90%;
+	display: inline-block;
+	padding: 2%;
+	vertical-align: top;
+
+}
+
+#section2 li{
+	border: solid;
+	border-radius: 10px;
+	padding: 4px;
+	border-style: inset;
+	color: black;
+}
+
+div{
+	display: none;
+}
+
+.tarea:hover div{
+	display: block;
+}
+
+.hecho{
+	color: #6ae330;
+}
+
+.nohecho{
+	color: #d00000;
+}
+
+#registro{
+	padding-top: 50px;
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+	font-size: 20px;
+}
+
+td {
+	padding-bottom: 10px;
+}
+
+table{
+	border: 0px;
+}
+
+footer{
+	width: 100%;
+	height: 10%;
+	color: #000000;
+	text-align: center;
+}
+
